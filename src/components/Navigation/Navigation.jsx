@@ -5,12 +5,12 @@ import css from "./Navigation.module.css"
 export default function Header () {
 
     const activeClass = ({isActive}) => {
-        return clsx(isActive && css.active)
+        return clsx(css.link, isActive && css.active)
 
     }
 
     return (
-        <div>
+        <div className={clsx(css.navWrapper)}>
             <NavLink to='/' className={activeClass}> Home </NavLink>
             <NavLink to='/movies' className={activeClass}> Movies </NavLink>
         </div>

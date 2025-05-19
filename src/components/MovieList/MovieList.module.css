@@ -1,0 +1,16 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  list-style: circle;
+  font-size: 17px;
+}
+
+.listItemLink {
+    text-decoration: none;
+    transition: font-size 0.2s ease-in-out;
+}
+
+.listItemLink:hover {
+   font-size: 18px;
+}

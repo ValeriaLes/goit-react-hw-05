@@ -1,0 +1,46 @@
+.goBackBtn {
+  background-color: #d1d1d1;
+  border: 2px solid #c6a6c6;
+  border-radius: 10px;
+  padding: 3px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+.movieTitle {
+    margin: 0;
+}
+
+.detailWrapper {
+  padding: 20px;
+}
+
+.mainInfoMovieWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.genreDescr {
+  display: flex;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.moreInfoMovieWrapper {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.moreInfoMovieLink {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+
+}
