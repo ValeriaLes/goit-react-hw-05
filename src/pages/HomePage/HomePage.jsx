@@ -8,8 +8,14 @@ export default function HomePage() {
 
   useEffect(() => {
     const getMovies = async () => {
-      const movies = await fetchTrendingMovies();
+      try {
+        const movies = await fetchTrendingMovies();
       setMovies(movies.data.results);
+        
+      } catch (error) {
+        console.log(error)
+        
+      }
       
     };
     getMovies();
